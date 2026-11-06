@@ -1,0 +1,75 @@
+# ============================================================
+# Caso 15 - Servicio Ciudadano 1800
+# Archivos generados/local que NO deben subirse al repositorio
+# ============================================================
+
+# ---------- Entornos virtuales de Python ----------
+venv/
+.venv/
+env/
+ENV/
+virtualenv/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.eggs/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.profile_defaults/
+jupyter_notebook_config.*
+
+# ---------- C# / .NET: archivos de compilación ----------
+[Bb]in/
+[Oo]bj/
+.vs/
+TestResults/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.dll
+*.exe
+*.pdb
+*.cache
+project.assets.json
+project.nuget.cache
+*.nuget.props
+*.nuget.targets
+
+# ---------- Configuración y secretos ----------
+.env
+.env.*
+!.env.example
+
+# ---------- Archivos locales de trabajo ----------
+repo.txt
+
+# ---------- Logs y temporales ----------
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# ---------- Sistema operativo / editores ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
